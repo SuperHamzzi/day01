@@ -1,0 +1,23 @@
+package variableExam;
+
+public class OpeatorExm00 {
+	public static void main(String[] args) {
+		/*
+		 * 예제 1) 사과를 담는 바구니 수를 구하기 
+		 * 사과의 개수 : 325 
+		 * 바구니 당 사과를 담는 개수 : 13 
+		 * 사과가 담긴 바구니 수? 
+		 * 남은 사과?
+		 */
+	int numOfApple = 326, countBucket=0,bucketPerApple =13;
+	int restApple =0;
+	countBucket= numOfApple / bucketPerApple;
+	restApple= numOfApple % bucketPerApple;
+	
+	System.out.println("사과의 개수 :" + numOfApple);
+	System.out.println("바구니당 사과 개수 :" + bucketPerApple);
+	System.out.println("바구니개수 :" + countBucket);
+	System.out.println("남은 사과 수 :" + restApple);
+	}
+
+}

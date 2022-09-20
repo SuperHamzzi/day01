@@ -1,0 +1,22 @@
+package variableExam;
+/* 예제1 
+ * 
+ */
+public class OperatorExm01 {
+
+	public static void main(String[] args) {
+		
+		int cola = 3231, st = 578,divid =5;
+		int a = cola-(st*divid);
+		System.out.println(a);
+		
+		int apple = 325, boxNumber = 13;
+		int box =ap/boxNumber;
+		int divideApple = ap/boxNumber;
+		System.out.println(box);
+		System.out.println(divideApple);
+		
+
+	}
+
+}

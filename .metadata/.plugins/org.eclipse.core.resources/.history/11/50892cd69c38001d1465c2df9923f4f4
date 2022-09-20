@@ -1,0 +1,23 @@
+package variableExam;
+/* 예제1 
+ * 
+ */
+public class OperatorExm01 {
+
+	public static void main(String[] args) {
+		int basket =13, apple =325;
+		int ap = apple/basket;
+		int la = apple%basket
+		System.out.println("사과가 담긴 바구니수":ap);
+		System.out.println("남은 사가과":ap);
+		
+		int cola = 3231, st = 578,divid =5;
+		int a = cola-(st*divid);
+		System.out.println(a);
+		
+		
+		
+
+	}
+
+}

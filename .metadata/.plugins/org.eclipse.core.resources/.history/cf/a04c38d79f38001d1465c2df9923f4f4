@@ -1,0 +1,36 @@
+package variableExam;
+/* 예제1 
+ * 
+ */
+public class OperatorExm01 {
+
+	public static void main(String[] args) {
+		
+		int cola = 3231, st = 578,divid =5;
+		int a = cola-(st*divid);
+		System.out.println(a);
+		System.out.println(cola%2==0 ? "한강" : "서울숲");
+		
+		int apple = 325, boxNumber = 13;
+		int box =apple/boxNumber;
+		int divideApple = apple%boxNumber;
+		System.out.println(box);
+		System.out.println(divideApple);
+		
+		int money =58483,fiveHundredWon= 500,oneHundredWon= 100,fifty= 50,ten= 10;
+		int fiveHdNb=money/fiveHundredWon;
+		int oneHdNb=(money%fiveHundredWon)/oneHundredWon;
+		int fiftyNb=(money%oneHundredWon)/fifty;
+		int tenNb=(money%fifty)/ten;
+		System.out.println("500동전의 개수:" +fiveHdNb);
+		System.out.println("100동전의 개수:" +oneHdNb);
+		System.out.println("50동전의 개수:" +fiftyNb);
+		System.out.println("10동전의 개수:" +tenNb);
+		
+		
+		
+		
+
+	}
+
+}

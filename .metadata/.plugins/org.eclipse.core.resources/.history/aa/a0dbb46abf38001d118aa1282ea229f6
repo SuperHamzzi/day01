@@ -1,0 +1,22 @@
+package variableExam;
+
+import java.util.Scanner;
+
+public class OperatorExam04 {
+	
+	public static void main(String[] args) {
+//		예제3) num = 3
+//		숫자 하나를 입력받아 입력한 숫자가 3이면 "같은 수", 그렇지 않으면 "다른 수"
+		int num =3, su = 0;
+		String result = "";
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요>>");
+		
+		su = sc.nextInt();
+		result= num==su? "같은수":"다른 수";
+		System.out.println(result);
+		
+	}
+
+}

@@ -1,0 +1,43 @@
+package variableExam;
+
+import java.util.Scanner;
+
+/*
+ * 작성일 : 2022.09.20
+ * 내용 : 변수 선언
+ */
+public class VariableTest {
+	public static void main(String[] args) {
+//	 변수 : 하나의 값을 저장할 수 있는 저장 공간
+//	 타입 변수명;
+//	 타입 변수명=값;
+	
+/* 반지름을 주고 원의 넓이를 구한다.
+ * 원의 넓이 : 
+ */
+	Scanner sc = new Scanner(System.in);
+	
+	/*
+	 * int radius = sc.nextInt(); final double PI = 3.1415;
+	 * System.out.println("반지름 :"+ radius); System.out.println("원주율 :" + PI);
+	 * System.out.println("원의 넓이:"+radius*radius*PI);
+	 */
+	
+	int width = 10;
+	int height = 20;
+	int area = width*height;
+	int area2 = (width*height)/2;
+	System.out.println("사각형의 넓이:"+ area);
+	System.out.println("삼각형의 넓이:"+ area2);
+	
+	final double width2 = 10.4;
+	final double height2 = 20.34;
+	final double area3 =  width2*heigth2;
+	final double area4 =  (width2*height2)/2;
+	System.out.println("사각형의 넓이:"+ are3);
+	System.out.println("삼각형의 넓이:"+ area4);
+	
+	
+	}//main 끝
+
+}// end of class VariableTest
